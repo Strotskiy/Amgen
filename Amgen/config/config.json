@@ -1,0 +1,30 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/mainBanner/MainBannerWebPart.js",
+      "manifest": "./src/webparts/mainBanner/MainBannerWebPart.manifest.json",
+      "outputPath": "./dist/main-banner.bundle.js"
+    },
+    {
+      "entry": "./lib/webparts/mainRightPanel/MainRightPanelWebPart.js",
+      "manifest": "./src/webparts/mainRightPanel/MainRightPanelWebPart.manifest.json",
+      "outputPath": "./dist/main-right-panel.bundle.js"
+    },
+    {
+      "entry": "./lib/webparts/mainGrids/MainGridsWebPart.js",
+      "manifest": "./src/webparts/mainGrids/MainGridsWebPart.manifest.json",
+      "outputPath": "./dist/main-grids.bundle.js"
+    }
+  ],
+  "externals": {
+    "jquery": "node_modules/jquery/dist/jquery.min.js",
+    "jqueryui": "node_modules/jqueryui/jquery-ui.min.js",
+    "swiper": "node_modules/swiper/dist/js/swiper.min.js",
+    "lity": "node_modules/lity/dist/lity.min.js"
+  },
+  "localizedResources": {
+    "mainBannerStrings": "webparts/mainBanner/loc/{locale}.js",
+    "mainRightPanelStrings": "webparts/mainRightPanel/loc/{locale}.js",
+    "mainGridsStrings": "webparts/mainGrids/loc/{locale}.js"
+  }
+}

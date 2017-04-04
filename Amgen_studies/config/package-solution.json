@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "amgen-studies-client-side-solution",
+    "id": "34b53294-a79c-4c8e-a796-c670313a0e6c",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/amgen-studies.sppkg"
+  }
+}

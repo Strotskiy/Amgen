@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "amgen-services-client-side-solution",
+    "id": "aaccffde-c18e-459e-a74a-4934cf1a987f",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/amgen-services.sppkg"
+  }
+}

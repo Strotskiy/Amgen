@@ -1,0 +1,25 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/servicesList/ServicesListWebPart.js",
+      "manifest": "./src/webparts/servicesList/ServicesListWebPart.manifest.json",
+      "outputPath": "./dist/services-list.bundle.js"
+    },
+    {
+      "entry": "./lib/webparts/serviceWebpart/ServiceWebpartWebPart.js",
+      "manifest": "./src/webparts/serviceWebpart/ServiceWebpartWebPart.manifest.json",
+      "outputPath": "./dist/service-webpart.bundle.js"
+    }
+  ],
+  "externals": {
+    "jquery": {
+      "path": "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js",
+      "globalName": "jQuery"
+}
+  },
+  "localizedResources": {
+    "servicesListStrings": "webparts/servicesList/loc/{locale}.js",
+    "serviceWebpartStrings": "webparts/serviceWebpart/loc/{locale}.js"
+  }
+  
+}

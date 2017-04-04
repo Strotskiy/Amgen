@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "f575aeff-d6f1-4118-9539-1bcd7cc30f3b",
+  "alias": "ServicesListWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "f575aeff-d6f1-4118-9539-1bcd7cc30f3b",
+    "group": { "default": "Under Development" },
+    "title": { "default": "services_list" },
+    "description": { "default": "services list" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "services_list"
+    }
+  }]
+}

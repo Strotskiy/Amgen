@@ -1,0 +1,48 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/caseStudiesBanner/CaseStudiesBannerWebPart.js",
+      "manifest": "./src/webparts/caseStudiesBanner/CaseStudiesBannerWebPart.manifest.json",
+      "outputPath": "./dist/case-studies-banner.bundle.js"
+    },
+    {
+      "entry": "./lib/webparts/caseStudiesTop5/CaseStudiesTop5WebPart.js",
+      "manifest": "./src/webparts/caseStudiesTop5/CaseStudiesTop5WebPart.manifest.json",
+      "outputPath": "./dist/case-studies-top-5.bundle.js"
+    },
+    {
+      "entry": "./lib/webparts/caseStudiesLatestVideo/CaseStudiesLatestVideoWebPart.js",
+      "manifest": "./src/webparts/caseStudiesLatestVideo/CaseStudiesLatestVideoWebPart.manifest.json",
+      "outputPath": "./dist/case-studies-latest-video.bundle.js"
+    },
+    {
+      "entry": "./lib/webparts/caseStudiesAll/CaseStudiesAllWebPart.js",
+      "manifest": "./src/webparts/caseStudiesAll/CaseStudiesAllWebPart.manifest.json",
+      "outputPath": "./dist/case-studies-all.bundle.js"
+    },
+    {
+      "entry": "./lib/webparts/caseStudiesClient/CaseStudiesClientWebPart.js",
+      "manifest": "./src/webparts/caseStudiesClient/CaseStudiesClientWebPart.manifest.json",
+      "outputPath": "./dist/case-studies-client.bundle.js"
+    },
+    {
+      "entry": "./lib/webparts/caseStudiesVideo/CaseStudiesVideoWebPart.js",
+      "manifest": "./src/webparts/caseStudiesVideo/CaseStudiesVideoWebPart.manifest.json",
+      "outputPath": "./dist/case-studies-video.bundle.js"
+    }
+  ],
+  "externals": {
+    "jquery": "node_modules/jquery/dist/jquery.min.js",
+    "jqueryui": "node_modules/jqueryui/jquery-ui.min.js",
+    "swiper": "node_modules/swiper/dist/js/swiper.min.js",
+    "lity": "node_modules/lity/dist/lity.min.js"
+  },
+  "localizedResources": {
+    "caseStudiesBannerStrings": "webparts/caseStudiesBanner/loc/{locale}.js",
+    "caseStudiesTop5Strings": "webparts/caseStudiesTop5/loc/{locale}.js",
+    "caseStudiesLatestVideoStrings": "webparts/caseStudiesLatestVideo/loc/{locale}.js",
+    "caseStudiesAllStrings": "webparts/caseStudiesAll/loc/{locale}.js",
+    "caseStudiesClientStrings": "webparts/caseStudiesClient/loc/{locale}.js",
+    "caseStudiesVideoStrings": "webparts/caseStudiesVideo/loc/{locale}.js"
+  }
+}

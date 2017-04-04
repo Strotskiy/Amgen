@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "7c4b8370-4adf-4101-b60b-b7b782d8becb",
+  "alias": "MainRightPanelWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "7c4b8370-4adf-4101-b60b-b7b782d8becb",
+    "group": { "default": "Under Development" },
+    "title": { "default": "mainRightPanel" },
+    "description": { "default": "main right panel" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "mainRightPanel",
+      "listTitle": "Test1"
+    }
+  }]
+}

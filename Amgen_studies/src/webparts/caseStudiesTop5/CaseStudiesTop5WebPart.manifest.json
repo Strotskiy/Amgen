@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "4bf57279-db35-4c47-ad49-0d7528075e82",
+  "alias": "CaseStudiesTop5WebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "4bf57279-db35-4c47-ad49-0d7528075e82",
+    "group": { "default": "Under Development" },
+    "title": { "default": "caseStudiesTop5" },
+    "description": { "default": "case Studies Top 5" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "caseStudiesTop5"
+    }
+  }]
+}

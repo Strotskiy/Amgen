@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "59e74a2e-4a59-4045-b24f-cbbfe241dd6d",
+  "alias": "CaseStudiesClientWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "59e74a2e-4a59-4045-b24f-cbbfe241dd6d",
+    "group": { "default": "Under Development" },
+    "title": { "default": "caseStudiesClient" },
+    "description": { "default": "case studies client" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "caseStudiesClient"
+    }
+  }]
+}

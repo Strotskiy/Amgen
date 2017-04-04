@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "24309cad-e69e-4843-8580-b5a151609fd7",
+  "alias": "MainBannerWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "24309cad-e69e-4843-8580-b5a151609fd7",
+    "group": { "default": "Under Development" },
+    "title": { "default": "main_banner" },
+    "description": { "default": "main_banner" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "main_banner1",
+      "listTitle": "Test1"
+    }
+  }]
+}

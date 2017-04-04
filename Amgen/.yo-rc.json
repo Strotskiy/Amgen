@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "libraryName": "amgem-webparts",
+    "framework": "none",
+    "version": "1.0.0",
+    "libraryId": "82ace50c-7cc4-48b0-927b-e804f0adae12"
+  }
+}

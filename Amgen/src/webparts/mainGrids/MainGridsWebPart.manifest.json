@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "b1eb13f0-bc3d-4099-b96d-4fd7b7028415",
+  "alias": "MainGridsWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "b1eb13f0-bc3d-4099-b96d-4fd7b7028415",
+    "group": { "default": "Under Development" },
+    "title": { "default": "MainGrids" },
+    "description": { "default": "Main grids" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "MainGrids"
+    }
+  }]
+}

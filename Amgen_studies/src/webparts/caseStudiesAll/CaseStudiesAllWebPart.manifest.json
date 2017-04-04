@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "731a6d21-0887-4eb1-b2e5-30c689c7abbd",
+  "alias": "CaseStudiesAllWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "731a6d21-0887-4eb1-b2e5-30c689c7abbd",
+    "group": { "default": "Under Development" },
+    "title": { "default": "caseStudiesAll" },
+    "description": { "default": "caseStudies All" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "caseStudiesAll"
+    }
+  }]
+}

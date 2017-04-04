@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "libraryName": "amgen-services",
+    "framework": "none",
+    "version": "1.0.0",
+    "libraryId": "aaccffde-c18e-459e-a74a-4934cf1a987f"
+  }
+}

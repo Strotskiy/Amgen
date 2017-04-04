@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "amgem-webparts-client-side-solution",
+    "id": "82ace50c-7cc4-48b0-927b-e804f0adae12",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/amgem-webparts.sppkg"
+  }
+}

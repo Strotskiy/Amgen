@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "39b2290a-4d9f-4525-a210-0bc6e4f359ea",
+  "alias": "CaseStudiesLatestVideoWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "39b2290a-4d9f-4525-a210-0bc6e4f359ea",
+    "group": { "default": "Under Development" },
+    "title": { "default": "caseStudiesLatestVideo" },
+    "description": { "default": "case Studies Latest Video" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "caseStudiesLatestVideo"
+    }
+  }]
+}
