@@ -53,7 +53,7 @@ private getQueryStringValue(key:string){
   return decodeURIComponent(window.location.search.replace(new RegExp("^(?:.*[&\\?]" + encodeURIComponent(key).replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));
 }
 
-//Main 
+//Main    
 private _renderListItemAsync(): void {
 
       this._getListData()
